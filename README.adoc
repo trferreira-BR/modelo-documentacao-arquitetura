@@ -18,11 +18,11 @@ image:blank-template/resources/views.png[leia isto primeiro]
 
 Uma documentação de projeto seguindo este modelo será assim constituída por : 
 
-* an link:view-application.adoc[visão aplicação] apresentando o contexto geral e a arquitetura da aplicação;
-* a link:view-development.adoc[visão desenvolvimento] apresentando a arquitetura de software e o ambiente na qual será disponibilizado;
-* a link:view-sizing.adoc[visão dimensionamento] apresentando aspectos relacionados com a performance e dimensionamento da infraestrutura;
-* an link:view-infrastructure.adoc[visão infraestrutura] apresentando os servidores, middleware, operações, etc.;
-* a link:view-security.adoc[visão segurança].
+* uma link:view-application.adoc[visão aplicação] apresentando o contexto geral e a arquitetura da aplicação;
+* uma link:view-development.adoc[visão desenvolvimento] apresentando a arquitetura de software e o ambiente na qual será disponibilizado;
+* uma link:view-sizing.adoc[visão dimensionamento] apresentando aspectos relacionados com a performance e dimensionamento da infraestrutura;
+* uma link:view-infrastructure.adoc[visão infraestrutura] apresentando os servidores, middleware, operações, etc.;
+* uma link:view-security.adoc[visão segurança].
 
 Cada seção é dividida de acordo com o seguinte padrão  :
 
@@ -48,7 +48,7 @@ ou crie uma https://github.com/bflorat/architecture-document-template/issues[iss
 ### Conselho sobre ao escrever seu documento de arquitetura
 * *Seja breve*, cada palavra deve fazer sentido. Nenhuma explicação inútil típica de 'esta é a introdução', sem repetição de outro documento, história da companhia ou conceitos vagos;
 * O leitor deve entender a operação e restrições da aplicação sem ser inundado com detalhes. O *documento deve se manter sustentável e atualizado*;
-* Se a aplicação seguir os padrões de arquitetura da sua organização, nunca repita isso *(https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY] princípio*) e referencie para um documento comum;
+* Se a aplicação seguir os padrões de arquitetura da sua organização, nunca repita isso *(https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY - Não se repita] princípio)* e referencie para um documento comum;
 * Se o capítulo não é aplicável, não deixe isto em branco, mas simplesmente mencione `N/A` (Não Aplicável) para que o leitor saiba que o assunto tem sido coberto e `TODO` (Para fazer) ou `WIP` (Trabalho em andamento) se isso resta ser completado;
 * Este modelo tem como objetivo ser *abrangente o suficiente para cobrir a maioria do gerenciamento dos aplicativos de sistemas de informações*. Portanto, pode ser normal que alguns capítulos não são aplicáveis no seu contexto;
 * Liste as *suposições arquiteturais* e estudos em progresso no capítulo "Pontos não resolvidos" de cada seção (eles devem ser excepcionais, caso contrário, o documento é escrito muito cedo);
@@ -57,10 +57,10 @@ ou crie uma https://github.com/bflorat/architecture-document-template/issues[iss
 ### O que este documento * NÃO * é?
 ** o *desenho detalhado* do projeto (diagramas UML de classes, sequências...) exceto para apresentar um padrão geral específico para a aplicação;
 ** *elementos de estudo* (SWOT, cenários, etc.): as escolhas já devem ter sido feitas (no entanto, incentivamos o fornecimento de https://adr.github.io/[ADRs] junto com o documento de arquitetura);
-** a *urbanização* de todo um Sistema de Informação (SI). Estamos nos posicionando aqui ao nível de uma única aplicação ou de um conjunto de módulos coerentes;
-** as *regras da arquitetura de referência* (comuns a todos os módulos de aplicação do SI);
+** a *urbanização* de todo um Sistema de Informação (S.I). Estamos nos posicionando aqui ao nível de uma única aplicação ou de um conjunto de módulos coerentes;
+** as *regras da arquitetura de referência* (comuns a todos os módulos de aplicação do S.I);
 ** detalhes técnicos (IP, logins) que possam comprometer a segurança;
-** *arquitetura física* (detalhes de servidores e datacenters, arquitetura de rede, arquitetura de armazenamento, provisionamento, etc.). Esses são assuntos muito específicos e geralmente são tratados por arquitetos de infraestrutura em nível de SI;
+** *arquitetura física* (detalhes de servidores e datacenters, arquitetura de rede, arquitetura de armazenamento, provisionamento, etc.). Esses são assuntos muito específicos e geralmente são tratados por arquitetos de infraestrutura em nível de S.I;
 ** detalhes de *ambientes* além da produção (aceitação, desenvolvimento, etc.). Eles geralmente são muito flutuantes para aparecer neste arquivo e se beneficiarão de serem documentados pelo integrador em vez de outros arquivos, wikis ou ferramentas CMDB.
 
 ## Perguntas frequentes
