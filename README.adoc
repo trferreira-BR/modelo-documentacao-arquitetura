@@ -5,7 +5,7 @@ Já tem sido utilizado em vários grandes projetos privados ou organizações go
 
 Outras línguas : https://github.com/bflorat/modele-da[Francês], https://github.com/bflorat/architecture-document-template[Inglês]
 
-*Se você utiliza e gosta deste modelo, você pode nos agradecer *starring* o projeto e/ou nos permitindo listar sua organização nas referências (endereço https://florat.net/contact[aqui])*
+*Se você utiliza e gosta deste modelo, você pode nos agradecer starring o projeto e/ou nos permitindo listar sua organização nas referências (endereço https://florat.net/contact[aqui])*
 
 ## Princípios do modelo
 Nós temos dividido a arquitetura em 5 visões (aplicação, segurança, dimensionamento, infraestrutura e desenvolvimento), cada visão sendo principalmente autossustentável.
