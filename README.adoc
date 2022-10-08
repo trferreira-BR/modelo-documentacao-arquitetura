@@ -42,7 +42,7 @@ ou crie uma https://github.com/bflorat/architecture-document-template/issues[iss
 * Além disso, é voluntariamente *rico em explanações e exemplos* porque também é uma (modesta) forma de aprendizagem destinada aos estudantes e jovens arquitetos.
 * Texto em itálico contém exemplos;
 * Cada capítulo contém notas e dicas para ajudar a preenchê-lo;
-* link:blank-template[Blank templates] (modelo vazio sem exemplos) são providos para sua conveniência. *É fortemente recomendado iniciar com um modelo em branco tendo um modelo com exemplos e explicações na sua frente em outra janela*;
+* link:blank-template[Modelos vazios] (sem exemplos) são providos para sua conveniência. *É fortemente recomendado iniciar com um modelo em branco tendo um modelo com exemplos e explicações na sua frente em outra janela*;
 * O script 'export' provido junto com o modelo em branco pode ser utilizado para exportar seu documento Asciidoc para um PDF, HTML ou pacote ODT para que possa ser exportado facilmente de um repositório Github ou Gitlab, por exemplo.
 
 ### Conselho sobre ao escrever seu documento de arquitetura
@@ -82,11 +82,11 @@ ou crie uma https://github.com/bflorat/architecture-document-template/issues[iss
 * A arquitetura *documentos resultantes deste modelo não se aplicam para esta licença*. Mesmo assim é recomendado incluir um link para https://github.com/bflorat/architecture-document-template[esta página].
 
 ## Obrigado
-* https://github.com/bflorat/architecture-document-template/graphs/contributors[Contributors]
+* https://github.com/bflorat/architecture-document-template/graphs/contributors[Contribuidores]
 * Revisão: Dr. Christophe Gaie
 * Retornos/Parecer: Antoine Parra Del Pozo, Pascal Bousquet, Philippe Mayjonade, Nicolas Chahwekilian, Steven Morvan
-* Todos os digramas deste modelo foram gerados através da excelente ferramenta http://plantuml.com/[PlantUML]. O https://c4model.com/[C4 diagrams] utiliza o https://github.com/RicardoNiepel/C4-PlantUML[C4 Plantuml customization].
-* Lise Florat pela ajuda com a tradução para o English.
+* Todos os digramas deste modelo foram gerados através da excelente ferramenta http://plantuml.com/[PlantUML]. O https://c4model.com/[Diagrama C4] utiliza o https://github.com/RicardoNiepel/C4-PlantUML[customizado C4 Plantuml].
+* Lise Florat pela ajuda com a tradução para o Inglês.
 * Thiago Rafael Ferreira pela ajuda com a tradução para o Português/Brasil.
 
 ## Bibliografia parcial
